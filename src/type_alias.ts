@@ -44,7 +44,3 @@ function generateRandomColor(): RGBA {
 }
 
 console.log(generateRandomColor());
-
-// * -----------------
-// * Type Aliases - Object literal
-// * -----------------

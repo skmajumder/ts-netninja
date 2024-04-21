@@ -9,7 +9,4 @@ function generateRandomColor() {
     return [red, green, blue, 1];
 }
 console.log(generateRandomColor());
-// * -----------------
-// * Type Aliases - Object literal
-// * -----------------
 //# sourceMappingURL=type_alias.js.map
