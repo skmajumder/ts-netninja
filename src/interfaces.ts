@@ -20,7 +20,7 @@ interface Post {
   author: Author;
 }
 
-const blogPost: Post = {
+const blogPost = {
   title: "TypeScript hero",
   body: "TypeScript is awesome",
   tags: ["TypeScript", "JavaScript", "Tech"],
@@ -44,3 +44,8 @@ createPost(blogPost);
 // * -----------------
 // * Interface with array
 // * -----------------
+
+let posts: Post[] = [];
+posts.push(blogPost);
+
+console.log(posts);

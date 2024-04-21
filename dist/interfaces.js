@@ -25,4 +25,7 @@ createPost(blogPost);
 // * -----------------
 // * Interface with array
 // * -----------------
+let posts = [];
+posts.push(blogPost);
+console.log(posts);
 //# sourceMappingURL=interfaces.js.map
