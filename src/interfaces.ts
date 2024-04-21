@@ -7,7 +7,7 @@ interface Author {
   avatar: string;
 }
 
-const author1: Author = {
+const authorOne: Author = {
   name: "John",
   avatar: "./img/mario.jpg",
 };
@@ -25,12 +25,21 @@ const blogPost: Post = {
   body: "TypeScript is awesome",
   tags: ["TypeScript", "JavaScript", "Tech"],
   create_at: new Date(),
-  author: author1,
+  author: authorOne,
 };
 
 // * -----------------
 // * Interface as function argument types
 // * -----------------
+
+function createPost(postInfo: Post): void {
+  console.log("Post created");
+
+  console.log(`Post title: '${postInfo.title}'`);
+  console.log(`Post author: '${postInfo.author.name}'`);
+}
+
+createPost(blogPost);
 
 // * -----------------
 // * Interface with array
