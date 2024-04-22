@@ -8,4 +8,7 @@ userId = 8;
 let userEmail;
 userEmail = "user@example.com";
 userEmail = null;
+let anotherId;
+anotherId = 100;
+anotherId = "HG240789";
 //# sourceMappingURL=union_types.js.map
