@@ -9,6 +9,13 @@ let userEmail;
 userEmail = "user@example.com";
 userEmail = null;
 let anotherId;
-anotherId = 100;
+anotherId = "100";
 anotherId = "HG240789";
+// * -----------------
+// * Union Types in functions
+// * -----------------
+function printId(id) {
+    console.log(id);
+}
+printId(anotherId);
 //# sourceMappingURL=union_types.js.map

@@ -20,5 +20,15 @@ type Id = string | number;
 
 let anotherId: Id;
 
-anotherId = 100;
+anotherId = "100";
 anotherId = "HG240789";
+
+// * -----------------
+// * Union Types in functions
+// * -----------------
+
+function printId(id: Id): void {
+  console.log(id);
+}
+
+printId(anotherId);
